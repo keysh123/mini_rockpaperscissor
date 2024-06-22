@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="content">
+    <div class="images">
+        <img src="images/rock.png" class="img" id="r" onclick="userselected(1)"  alt="">
+        <img src="images/scissors.png" class="img" id="s" onclick="userselected(2)" alt="">
+        <img src="images/paper.png"class="img" id="p" onclick="userselected(3)" alt="">
+    </div>
+    <div class="scores">
+        <!-- <div class="number1"> -->
+        <div class="score" id="human">0</div>
+        <div class="score" id="Computer">0</div>
+        <!-- </div> -->
+    </div>
+    <div class="names">
+       
+        <div class="name" > &nbsp; &nbsp; &nbsp; You</div>
+        <div class="name" >Computer</div>
+        
+    </div>
+
+    <div id="result">
+        <div id="displayresult">
+            Pick Your Move
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
